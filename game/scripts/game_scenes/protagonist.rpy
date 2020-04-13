@@ -4,6 +4,7 @@ define protagonist = Character(protagonistName, what_style="protagonist_thoughts
 
 default hasNotReadCrimeAndPunishment = True
 default hasNotReadHunger = True
+default hasNotReadLayeredImagesExample = True
 
 
 label start:
@@ -34,6 +35,10 @@ label choose_book:
 
         "Crime and Punishment - Fyodor Dostoevsky" if hasNotReadCrimeAndPunishment:
             jump crime_and_punishment
+
+
+        "Layered Images Examples - Guy" if hasNotReadLayeredImagesExample:
+            jump layered_images_example
 
 
 
