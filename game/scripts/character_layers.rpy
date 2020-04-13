@@ -3,42 +3,18 @@ layeredimage augustina:
     always:
         "augustina_base"
 
-    group outfit:
-
-        attribute dress:
-            "augustina_outfit_dress"
-
-        attribute jeans:
-            "augustina_outfit_jeans"
-
     group eyes:
 
-        attribute open default:
-            "augustina_eyes_open"
-            default True
+        pos (95, 90)
 
-        attribute wink:
-            "augustina_eyes_wink"
+        attribute open default
+        attribute wink
 
     group eyebrows:
 
-        attribute normal default:
-            "augustina_eyebrows_normal"
+        pos (100, 85)
 
-        attribute oneup:
-            "augustina_eyebrows_oneup"
+        attribute normal default
+        attribute one_raised:
 
-    group mouth:
-
-        pos (100, 100)
-
-        attribute smile default:
-            "augustina_mouth_smile"
-
-        attribute happy:
-            "augustina_mouth_happy"
-
-    if evil:
-        "augustina_glasses_evil"
-    else:
-        "augustina_glasses"
+            pos (100, 70)
