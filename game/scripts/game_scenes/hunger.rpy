@@ -31,7 +31,7 @@ label hunger:
 
     show hunger_narrator neutral at right
     show ylajali neutral at left
-    ylajali "Have you been waiting long? {=hunger_narration} She was breathing rapidly after her walk."
+    ylajali "Have you been waiting long? {=hunger_narration} She was breathing rapidly after her walk.{/}"
     hungerProtagonist "No, not at all, I only came a short while ago"
     hungerProtagonist "Besides, what would it matter if I had waited long? By the way I thought you would be coming from another direction"
     ylajali "I took Mama to see some friends - Mama will be away this evening"
@@ -42,7 +42,7 @@ label hunger:
     ylajali "Oh dear. But it's such a bore to decide that yourself"
     hungerProtagonist "..."
     hungerProtagonist "Your windows are dark, I see"
-    ylajali @ excited "Yes! {=hunger_narration} she answers vivaciously"
+    ylajali @ excited "Yes! {=hunger_narration} she answers vivaciously{/}"
     ylajali "The maid is off this evening, too. So I'm home all alone."
     hungerProtagonist @ nervous """
         Can we go up to your place then?
@@ -93,10 +93,10 @@ label hunger:
     hungerProtagonist "I was run over a bit the other day"
     ylajali """
         Run over? Drunk again, then? Good heavens, what a life you're leading, young man!
-        {=hunger_narration} she threatened me with he fore-finger and put up a serious face
+        {=hunger_narration} she threatened me with he fore-finger and put up a serious face{/}
 
 
-        {=hunger_ylajali}Let's sit down!
+        Let's sit down!
 
         No, not there by the door. You're too shy. Over here - you there and I here, that's it...
 
